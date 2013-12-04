@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+	<title>Wikipedia-Suche</title>
 </head>
 <body>
-<div><a href="http://wave.webaim.org" ><img src="wcag2AAA.gif" alt="WAVE Web Accessibility Tool"/></a></div>
+<div><a href="http://Wikipedia.de" ><img class="wikilogo" src="Wikipedia_logo_silver.png" alt="Wikipedia"/></a></div>
+<div class="form">
 	<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
 	   <fieldset>
-	      <legend>Suchen in Wikipedia</legend>
-	      <input type="text"   name="search" value="" />
-	      <input type="submit" name="go" value="Artikelsuche"/>
-	      <input type="submit" name="fulltext" value="Volltextsuche" />
+	      <label class ="form" for="text">Hier bitte Ihr Suchwort eingeben:</label><br>
+	      <input class ="form" type="text"   name="search" value="" /><br>
+	      <input class ="form" id="button" type="submit" name="go" value="Artikelsuche"/>
+	      <input class ="form" id="button" type="submit" name="fulltext" value="Volltextsuche" /><br><br>
 	   </fieldset>
 	</form>
+</div>
+<div class="footer">
+<a href="http://wave.webaim.org/report#/http%3A%2F%2Fwikisearch.cloudcontrolled.com%2F" ><img class="footer" id="wavelogo" src="wcag2AAA.gif" alt="WAVE Web Accessibility Tool"/></a>
+<img class="footer" id="infologo" src="simboli_info.jpg" alt="Information"/>
+</div>
 </body>
 </html>
