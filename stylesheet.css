@@ -1,5 +1,16 @@
+body{
+	background-color: #D3D3D3;
+}
+
+h1{
+	width:auto;
+	height:auto;
+	text-align:center;
+	font-family: "Comic Sans", Times, sans-serif;
+}
+
 img.wikilogo{
-	width:200px;
+	width:170px;
 	height:auto;
 	display:block;
 	margin-left:auto;
